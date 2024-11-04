@@ -1,4 +1,4 @@
-FPGA FINAL PROJECT :
+FPGA FINAL PROJECT :</br>
 Given:
 a. Implementing VGA controller with help on how it works, and trying out monochrome colors on display
 
