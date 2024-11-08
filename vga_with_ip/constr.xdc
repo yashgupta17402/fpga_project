@@ -34,12 +34,6 @@ set_property PACKAGE_PIN W2 [get_ports {val[6]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {val[6]}]
 set_property PACKAGE_PIN U1 [get_ports {val[7]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {val[7]}]
-#set_property PACKAGE_PIN T1 [get_ports {b[0]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {b[0]}]
-#set_property PACKAGE_PIN R2 [get_ports {b[1]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {b[1]}]
-
-
 
 ##VGA Connector
 set_property PACKAGE_PIN G19 [get_ports {red[0]}]
