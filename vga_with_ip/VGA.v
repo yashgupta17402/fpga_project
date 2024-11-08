@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 11/03/2018 04:26:40 PM
+// Create Date: 11/10/2024 04:26:40 PM
 // Design Name: 
-// Module Name: check
+// Module Name: 
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -46,9 +46,6 @@ red, green, blue                    // red, green and blue output pixels
     clk<=~clk;
    end
    
-   
-//lst = ["gray", "left", "right", "up", "down", "leftup", "leftdown", "rightup", "rightdown"] 
-
  
    output reg hsync;
    output reg vsync;
@@ -149,9 +146,6 @@ always @(posedge pixel_clk)
             if(blank == 0 && hc >= 100 && hc < 260 && vc >= 100 && vc < 215)
             begin
             
-//                tblue =  {out2[95], out2[94], out2[93], out2[92], out2[91], out2[90], out2[89], out2[88]};
-//                tgreen = {out2[87], out2[86], out2[85], out2[84], out2[83], out2[82], out2[81], out2[80]};
-//                tred = {out2[79], out2[78], out2[77], out2[76], out2[75], out2[74], out2[73], out2[72]};    
                 gray =  {out2[95], out2[94], out2[93], out2[92], out2[91], out2[90], out2[89], out2[88]};
                 left = {out2[87], out2[86], out2[85], out2[84], out2[83], out2[82], out2[81], out2[80]};
                 right = {out2[79], out2[78], out2[77], out2[76], out2[75], out2[74], out2[73], out2[72]};                
@@ -263,13 +257,8 @@ always @(posedge pixel_clk)
                        
                 end
                 
-                
-                
-                    
                end
-                       
 
-                
                 if(addra <18399)
                     addra = addra + 1;
                 else
