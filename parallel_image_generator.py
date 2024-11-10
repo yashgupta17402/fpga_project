@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Nov  9 11:14:26 2018
 
-@author: Gowtham
-"""
 import numpy as np
 import cv2
 img = cv2.imread("gray.bmp")
